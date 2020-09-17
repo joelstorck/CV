@@ -33,6 +33,7 @@ header,footer {
 
 h2 {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 #workXP-container {
@@ -47,6 +48,8 @@ h2 {
 ul li {
     padding-top: 20px;
     text-align: center;
+    list-style-type: none;
+
 }
 
 p {
