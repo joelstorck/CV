@@ -21,7 +21,7 @@ header,footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 30px;
+    height: 45px;
     align-items: center;
     
 }
