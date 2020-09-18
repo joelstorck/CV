@@ -1,4 +1,7 @@
+/*importerar dem 2 typsnitt som används*/
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Metal+Mania&display=swap');
+
+/*konfiguerar hur body och html ska se ut*/
 body, html {
     margin-top: 0;
     margin-left: 0;
@@ -12,6 +15,7 @@ body, html {
     
 }
 
+/*konfiguerar header och footer under samma då jag vill att dem ska se likadan ut*/
 header,footer {
     font-family: 'Metal Mania', cursive;
     font-size: 25px;
@@ -25,16 +29,19 @@ header,footer {
     
 }
 
+/*ställer in storlek på bild*/
 #joel {
     width: 375px;
     
 }
 
+/*ser till att h2 inte har marginaler upp eller ner*/
 h2 {
     margin-top: 0;
     margin-bottom: 0;
 }
 
+/*Här använder jag flex till listorna för att få rätt avstånd imellan dem i vertikalt(column) läge.*/
 #workXP-container {
     display: flex;
     flex-direction: column;
@@ -44,6 +51,7 @@ h2 {
         
 }
 
+/*Fortsättning på ovan nämnda kommentar*/
 ul li {
     padding-top: 20px;
     text-align: center;
@@ -51,6 +59,7 @@ ul li {
 
 }
 
+/*Gör att texterna i beskrivningen och listorna ska se bättre ut med hjälp av flex och padding*/
 p {
     display: flex;
     flex-direction: column;
