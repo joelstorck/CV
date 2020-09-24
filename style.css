@@ -18,6 +18,7 @@ body, html {
 /*konfiguerar header och footer under samma då jag vill att dem ska se likadan ut*/
 header,footer {
     font-family: 'Metal Mania', cursive;
+    color: goldenrod;
     font-size: 25px;
     background: black;
     margin: 0; padding: 0;
@@ -36,9 +37,14 @@ header,footer {
 }
 
 /*ser till att h2 inte har marginaler upp eller ner*/
-h2 {
+h2, h1 {
     margin-top: 0;
     margin-bottom: 0;
+    color: goldenrod;
+}
+
+a{
+    color: white;
 }
 
 /*Här använder jag flex till listorna för att få rätt avstånd imellan dem i vertikalt(column) läge.*/
@@ -48,6 +54,7 @@ h2 {
     justify-content: space-between;
     margin-top: 0.5em;
     align-items: stretch;
+    padding-left: 0;
         
 }
 
@@ -68,3 +75,4 @@ p {
     text-align: center;
 
 }
+
